@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+    background-color: #86A789;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 200px;
+ background-color: #B2C8BA;
+}
+
+.search_input {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: red;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  font-size: 18px;
+}
+
+.search i {
+  padding: 14px;
+  width: 30px;
+  color: black;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  color: white
+}
+.temp {
+  font-size: 80px;
+}
+
+.city {
+  font-size: 80px;
+}
+.main_weather_img {
+  width: 80px;
+  height: 80px;
+}
+
+.weather_detail {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  color: white
+}
+.wind img,
+.humidity img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.wind span,
+.humidity span {
+  font-size: 25px;
+}
